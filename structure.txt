@@ -1,0 +1,14 @@
+askdb/
+├─ app/
+│  ├─ main.py              # your Streamlit app (the code you shared)
+│  ├─ db.py                # optional: move DB helper functions here
+│  └─ utils.py             # optional: helper utilities
+├─ .github/
+│  └─ workflows/
+│     └─ python-app.yml    # CI workflow (optional)
+├─ .gitignore
+├─ requirements.txt
+├─ README.md
+├─ LICENSE
+├─ CONTRIBUTING.md
+└─ .env.example
